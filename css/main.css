@@ -1,0 +1,566 @@
+body{
+color: #4d4d4d;
+font-family: 'Asap', sans-serif;
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+padding: 0;
+margin: 0;
+}
+div, p, a, img, form, button {
+box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #4d4d4d;
+  padding: 0;
+  margin: 0;
+}
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: #9a9a9a;
+}
+
+.header {
+  background: url('../img/bgr.png') no-repeat; 
+  background-size: cover;
+  background-position-x: center;
+  height: 750px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav { 
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-top: 30px;
+}
+.menu {
+  display: flex;
+  margin-left: 632px;
+  margin-bottom: 42px;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.menu li {
+font-size: 16px;
+margin-right: 40px;
+}
+.menu a {
+  color: #4d4d4d;
+  padding: 6px 0;
+}
+.menu li.activ a,
+.menu li a:hover {
+  color: #878787;
+  border-bottom: 2px solid #878787;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  margin-top: 167px;
+}
+.offer-content h1 {
+font-size: 90px;
+font-weight: 500;
+}
+.offer-content p {
+font-size: 22px;
+font-weight: 500;
+}
+.btn {
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+}
+.a1 {
+background: #ffffff;
+color: #4d4d4d;
+font-weight: 500;
+font-size: 16px;
+width: 160px;
+display: block;
+padding: 16px 0;
+margin-top: 26px;
+margin-right: 20px;
+transition: all 0.5s ease;
+} 
+.a1:hover {
+background: #4d4d4d;
+color: #fff;
+} 
+.a2 {
+background: transparent; /*Прозрачный фон кнопки*/
+color: #4d4d4d;
+font-weight: 500;
+font-size: 16px;
+width: 160px;
+display: block;
+padding: 16px 0;
+margin-top: 26px;
+border: 1px solid #23282B;  /*Рамка для кнопки*/
+transition: all 0.5s ease;
+}
+.a2:hover {
+background: #4d4d4d;
+color: #fff;
+border: none;
+} 
+
+.one{
+  background: #ffffff;
+  height: 676px;
+ 
+  
+}
+.offer2 {
+padding: 100px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+ /*margin-top: 109px;*/
+}
+.offer-content2 {
+  
+}
+.active2 {    /*Верхнее подчеркивание*/
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #7b7b7b;  
+}
+h2 {
+  font-size: 46px;
+  color: #7b7b7b;
+  font-weight: 700;
+ /* margin-top: 192px;*/
+}
+.offer-content2 p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.offer-content2 a {
+background: transparent;
+border: 1px solid #23282B;
+color: #4d4d4d;
+font-weight: 500;
+font-size: 16px;
+width: 244px;
+display: block;
+margin-top: 34px;
+padding: 16px 0;
+text-align: center;
+display: inline-block;
+transition: all 0.5s ease;
+}
+.offer-content2 a:hover {
+background: #666;
+color: #fff;
+border: none;
+}
+/*.kar {
+  width: 570px;
+  width: 48%;
+  height: 443px;
+  margin-left: 20px;
+  margin-top: 109px;
+}*/
+
+.two {
+background: #f6f6f6;
+height: 692px;
+background-size: cover;
+}
+.zmist {
+  margin: 0 auto;
+  max-width: 1030px;
+  padding: 119px 0;
+}
+.title {
+text-align: center;
+}
+.active3 {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #7b7b7b;
+  margin: 16px auto; /*Расстояние между заголовком и верхним подчеркиванием*/
+}
+.kartinki {
+ /* height: 342px;*/
+padding: 60px 0;
+ text-align: center; /*Выровнять текст по центру*/
+}
+.kartinki p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+.rzd1 {
+  width: 940px; /*Ширина контейнера*/
+    list-style: none; /*Убрать точки перед списком*/
+    display: flex;
+    justify-content: space-between; /*Для центровки элемента горизонтально*/
+    /*align-items - Для вертикального центрирования*/
+    padding-left: 40px;
+    margin-bottom: 87px;
+}
+.rzd2 {
+  width: 982px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-bottom: 118px;
+}
+
+.three {
+  background: #fff;
+  height: 767px;
+}
+.grafic_container {
+max-width: 1012px;
+padding: 80px 0;
+margin: 0 auto;
+}
+.title2 {
+text-align: center;
+margin-bottom: 49px;
+}
+.active4 {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #7b7b7b;
+  margin: 16px auto; /*Расстояние между заголовком и верхним подчеркиванием*/
+}
+.grkart {
+display: flex;
+}
+.lili {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.ula {
+        display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: 40px;
+}
+
+.four {
+background: #f6f6f6;
+height: 1095px;
+}
+.portfolio {
+padding: 126px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.active5 { /*Верхнее подчеркивание*/
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #7b7b7b;
+  margin: 16px auto;
+}
+.foto {
+  
+}
+.row {
+display: flex;
+margin: 0 auto;
+margin-top: 31px;
+}
+.icon11 {
+/*  width: 369px;
+  height: 318px;*/
+  width: 95%;
+  /*margin-right: 31px;*/
+  margin-right: 5%;
+}
+.icon12 {
+/*  width: 369px;
+  height: 318px;*/
+  width: 100%;
+}
+.btn2 {
+width: 190px;
+height: 49px;
+display: block;
+margin: 0 auto;
+}
+.a3 {
+align-items: flex-start;
+text-align: center;
+box-sizing: border-box;
+background-color: #ffffff;
+color: #4d4d4d;
+font-weight: 500;
+font-size: 16px;
+display: block;
+padding: 16px 0;
+margin-top: 30px;
+box-shadow: 10px 21px 26.68px 2.32px rgba(0, 0, 0, 0.1); /*Тень для кнопки*/
+transition: all 1s ease;
+}
+.a3:hover {
+background: #333;
+color: #fff;
+border: none;
+}
+
+.five {
+  background: #fff;
+height: 864px;
+}
+.test {
+max-width: 1170px;
+margin: 0 auto;
+padding: 126px 0;
+}
+.active6 { /*Верхнее подчеркивание*/
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #7b7b7b;
+  margin: 16px auto;
+}
+.otziv {
+  border: 1px solid black;
+  max-width: 953px;
+  height: 350px;
+  margin: 0 auto;
+}
+.vnutri {
+display: flex;
+justify-content: center; 
+margin-top: 81px;
+
+}
+.womanface {
+ display: block;
+}
+h3 {
+  color: #454545;
+  font-size: 30px;
+  font-weight: 500;
+}
+h4 {
+  color: #454545;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+}
+.vnutri p {
+color: #919191;
+text-transform: uppercase; /*Текст большими буквами*/
+font-weight: 400;
+font-size: 16px;
+}
+.txt {
+  margin-left: 29px;
+}
+.list {
+    bottom: 40px;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.list li {
+display: inline-block;
+margin-top: 56px;
+}
+
+.middle {
+  height: 302px;
+  background-color: #f6f6f6;
+  margin-bottom: 149px;
+}
+.funfact {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.funf {
+padding: 55px 0;
+text-align: center; /*Выровнять текст по центру*/
+}
+.funf p {
+color: #444444;
+margin-bottom: 7px;
+margin-top: 27px;
+}
+.med {
+  font-weight: 500;
+  font-size: 30px;
+}
+.med1 {
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.rzd3 {
+  max-width: 1063px; /*Ширина контейнера*/
+    list-style: none; /*Убрать точки перед списком*/
+    display: flex; /*В одну строку*/
+    justify-content: space-between; /*Для центровки элемента горизонтально*/
+    align-items: center;  /*Для вертикального центрирования*/
+    padding-left: 40px;
+}
+
+.six {
+  background: url('../img/backs.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*height: 788px;*/
+  height: 100%;
+}
+.hello {
+  padding: 145px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.active7 { /*Верхнее подчеркивание*/
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #c1c1c1;
+  margin: 16px auto;
+}
+.hello h2 {
+color: #f2f2f2;
+}
+.forma {
+  width: 770px;
+  height: 373px;
+  margin: 0 auto;
+}
+
+input::-webkit-input-placeholder { color: #626262; } /*Меняет цвет внутри placeholdera*/
+input::-moz-placeholder { color: #626262; }
+textarea::-webkit-input-placeholder { color: #626262; }
+textarea::-moz-placeholder { color: #626262; }
+
+.form-input1 {
+ font-family: 'Asap', sans-serif;
+ width: 359px;
+ height: 56px;
+ font-size: 16px;
+ font-weight: 400;
+padding-left: 10px;
+}
+.form-input2 {
+ font-family: 'Asap', sans-serif;
+ float: right; /*Выравнивание по правому краю*/
+ width: 359px;
+ height: 56px;
+ font-size: 16px;
+ font-weight: 400;
+ padding-left: 10px;
+}
+.form-input3 {
+ font-family: 'Asap', sans-serif;
+ color: #626262;
+ width: 753px;
+ height: 206px;
+ font-size: 16px;
+ font-weight: 400;
+ margin-top: 28px;
+ padding-left: 11px;
+ line-height: 65px;
+ resize: none;
+}
+.send {
+  margin: 0 auto;
+  width: 123px;
+  margin-top: 29px;
+}
+.send1 {
+    background-color: #ffffff;
+    -webkit-box-shadow: 19px -8px 25.68px 4.32px rgba(0, 0, 0, 0.1);
+    box-shadow: 19px -8px 25.68px 4.32px rgba(0, 0, 0, 0.1);
+    width: 123px;
+    height: 50px;
+    color: #4d4d4d;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.send1:hover {
+background: #666600;
+color: #fff;
+}
+
+.footer {
+  height: 100%;
+  margin-top: -70px;
+}
+.nmenu{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.social {
+  display: block;
+}
+.twit {
+    display: flex;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer li {
+    margin-right: 10px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+.span {
+  text-align: center;
+  margin-top: -67px;
+}
+
+.span_text {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 67px;
+}
+.topbutton { /*Кнопка возврата вверх*/
+
+/*border:2px solid #ccc;*/
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+}
